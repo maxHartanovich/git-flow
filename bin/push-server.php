@@ -24,5 +24,5 @@ $webServer = new Ratchet\Server\IoServer(
     $webSock
 );
 
-// Run
+// Run loop
 $loop->run();
